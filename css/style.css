@@ -1,0 +1,152 @@
+
+
+body{
+    background: black;
+}
+#navbar{
+    background:url('../img/img7.png') no-repeat;
+    background-size: cover;
+}
+@media screen and (max-width:1000px) {
+    #search{
+        display:flex;
+        justify-content: center;
+        margin-top: 5px;
+    }
+}
+@media screen and (max-width:699px) {
+    .navbar-brand {
+        position: relative;
+        top: 20px;
+        left: 19px;
+    }
+    .bottom-up{
+        font-size: 14px;
+        color:yellowgreen;
+    }
+    .bottom-down{
+        position: relative;
+        top: -16px;
+        left: -5px;
+        margin-left: 12px;
+        font-size: 11px;
+        color: yellowgreen;
+    }   
+}
+
+@media screen and (min-width:700px) {
+   .navbar-brand{
+    position: relative;
+    top: 18px;
+}
+   
+    .bottom-up{
+        font-size: 28px;
+        color:crimson;
+}
+    .bottom-down{
+        position: relative;
+        top: -16px;
+        left: 13px;
+        margin-left: 12px;
+        font-size: 18px;
+        color: crimson;
+ }
+}
+
+
+.mega-menu .mega-area{
+    text-align: start;
+ }
+.navbar-nav .nav-item .nav-link{
+    font-size: 20px;
+    color:yellowgreen
+}
+ .dropdown-menu{
+    background:rgba(0,0,0,0.4);
+    padding: 2px;
+    margin: 0;
+}
+.dropdown-menu .dropdown-item{
+    display: block;
+    padding: 6px;
+    border-bottom: 1px dotted #fff;
+    color:orangered;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+.dropdown-item:hover{
+    transform: scale(1.2);
+    background: rgba(0,0,0,0.4);
+}
+.navbar-toggler-icon:before{
+    content: "\f150";
+    font-family: fontAwesome;
+    color:crimson;
+}
+#about{
+    margin-top: 150px;
+}
+#about h1,h2,h3{
+    cursor:pointer;
+}
+#about h2{
+    color:white;
+}
+#about h3{
+    color:gray;
+}
+#about-me{
+    margin-top: 150px; 
+}
+/* #skills:after{
+    content: "\f103";
+    font-family: fontAwesome;
+    color: darkorange;
+} */
+
+#HTML:target{
+    border:1px dooted #fff;
+    border-radius: 30px;
+    color:blueviolet;
+}
+#CSS:target{
+    border:1px dotted #fff;
+    border-radius: 30px;
+    color:slateblue;
+}
+#BOOTSTRAP:target{
+    border:1px dotted #fff;
+    border-radius: 30px;
+    color:aqua;
+}
+#jquery:target{
+    border:1px dotted #fff;
+    border-radius: 30px;
+    color:yellow;
+}
+#contact i{
+    font-size: 20px;
+    padding: 5px;
+    color: aliceblue;
+    transition: 0.5s;
+}
+#contact i:hover{
+transform: scale(2);
+color:darkmagenta;
+}
+@media screen and(max-width:800px){
+    #contact h1{
+        font-size: 35px;
+    }
+}
+#cv{
+    position: relative;
+    top: -15px;
+    left: 16px;
+    transition: 0.5s;
+}
+#cv:hover{
+    transform: scale(1.2);
+}
