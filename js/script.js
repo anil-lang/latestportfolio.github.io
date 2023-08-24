@@ -12,7 +12,7 @@ tl.from("#loco ,#text h1, #text p",{
    opacity : 0,
    duration :0.6,
    delay : 0.9,
-   stagger : 0.4,
+   stagger : 0.6,
    scrollTrigger : {
     trigger : "#loco ,#text h1,#text p",
     scroller : "body",
