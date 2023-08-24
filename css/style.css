@@ -100,6 +100,9 @@ body{
 #about-me{
     margin-top: 150px; 
 }
+#loco{
+    overflow: hidden;
+}
 /* #skills:after{
     content: "\f103";
     font-family: fontAwesome;
