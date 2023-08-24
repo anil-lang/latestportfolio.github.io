@@ -11,7 +11,7 @@ tl.from("#loco ,#text h1, #text p",{
    scale : -2,
    opacity : 0,
    duration :0.6,
-   delay : 0.7,
+   delay : 0.9,
    stagger : 0.4,
    scrollTrigger : {
     trigger : "#loco ,#text h1,#text p",
@@ -28,7 +28,7 @@ tl.from("#service h1",{
    opacity : 0,
    duration :0.4,
    delay : 0.5,
-   stagger : 0.9,
+   stagger : 10,
    scrollTrigger : {
     trigger : "#loco ,#text h1,#text p",
     scroller : "body",
