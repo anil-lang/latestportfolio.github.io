@@ -3,6 +3,7 @@ tl.from("#anil p, #mynavbar, #search" ,{
     y : -100,
     opacity : 0,
     duration: 1,
+    delay:0.4,
     stagger:0.3
 })
 
@@ -40,7 +41,6 @@ tl.from("#colo h1 ,#colo p",{
    x : 500,
    scale : -5,
    opcity : 0,
-//    rotate : -360,
    opacity : 0,
    duration :0.4,
    delay : 0.5,
